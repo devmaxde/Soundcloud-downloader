@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  tmp:
+    build: .
+    volumes:
+      -  "./tmp:/app"
