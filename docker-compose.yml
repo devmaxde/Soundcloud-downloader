@@ -4,4 +4,4 @@ services:
   tmp:
     build: .
     volumes:
-      -  "./tmp:/app"
+      - "./tmp:/app"
